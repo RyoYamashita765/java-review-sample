@@ -5,7 +5,7 @@ public class Main {
 		System.out.println("Hello World!");
 
 		for (int i = 1; i <= 10; i++) {
-			System.out.println("i = " + i);
+			System.out.println("i^2 = " + i * i);
 		}
 	}
 }
