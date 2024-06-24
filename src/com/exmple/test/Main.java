@@ -21,3 +21,9 @@ public class Main {
 		System.out.println("World");
 	}
 }
+
+class Sub {
+	public void printSub() {
+		System.out.println("Sub");
+	}
+}
