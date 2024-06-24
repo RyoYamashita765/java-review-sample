@@ -9,7 +9,6 @@ public class Main {
 				answer++;
 				break;
 			default:
-				System.out.println("The answer is not 42.");
 				return;
 		}
 	}
