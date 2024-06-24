@@ -2,7 +2,7 @@ package com.exmple.test;
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+		System.out.println("Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
 
 
@@ -10,6 +10,6 @@ public class Main {
 
 
 
-		System.out.println("Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+		System.out.println("Duis aute irure dolor in reprehenderit in voluptate ...");
 	}
 }
