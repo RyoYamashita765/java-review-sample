@@ -8,12 +8,12 @@ public class Main {
 			System.out.println("i = " + i);
 		}
 
-		for (int j = 1; j <= 10; j++) {
-			System.out.println("j = " + j);
-		}
-
 		for (int k = 1; k <= 10; k++) {
 			System.out.println("k = " + k);
+		}
+
+		for (int m = 11; m <= 20; m++) {
+			System.out.println("m = " + m);
 		}
 	}
 
