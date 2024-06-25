@@ -19,3 +19,9 @@ class Dummy {
 class Cache {
 	String cache;
 }
+
+class Printer {
+	public void print() {
+		System.out.println("Hello World!");
+	}
+}
