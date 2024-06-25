@@ -15,3 +15,7 @@ public class Main {
 class Dummy {
 
 }
+
+class Cache {
+	String cache;
+}
