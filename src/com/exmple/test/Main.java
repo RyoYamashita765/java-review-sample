@@ -7,13 +7,21 @@ public class Main {
 		printHello();
 	}
 
+	public static void initClasses() {
+		Dummy dummy = new Dummy();
+		Cache cache = new Cache();
+		Printer printer = new Printer();
+	}
+
 	public static void printHello() {
 		System.out.println(" World");
 	}
 }
 
 class Dummy {
-
+	public void dummy() {
+		System.out.println("Dummy");
+	}
 }
 
 class Cache {
@@ -26,5 +34,9 @@ class Cache {
 class Printer {
 	public void print() {
 		System.out.println("Hello World!");
+	}
+
+	public void print(String message) {
+		System.out.println(message);
 	}
 }
