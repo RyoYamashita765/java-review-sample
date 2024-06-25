@@ -16,8 +16,4 @@ public class Main {
 
 interface Printer {
 	void printMessage(String message);
-
-	default void printHello() {
-		System.out.println("Hello");
-	}
 }
