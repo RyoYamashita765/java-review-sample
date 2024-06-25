@@ -11,3 +11,7 @@ public class Main {
 		System.out.println(" World");
 	}
 }
+
+class Dummy {
+
+}
