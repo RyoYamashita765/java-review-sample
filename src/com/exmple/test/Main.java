@@ -13,8 +13,8 @@ import java.util.Map;
 
 public class Main {
 	public static void main(String[] args) {
-		DatabaseManager databaseManager = new DatabaseManager("jdbc:mysql://localhost:3306/test", "admin", "pass");
-		List<Map<String, String>> result = databaseManager.select("SELECT * FROM test_table");
+		BookDatabase bookDatabase = new BookDatabase("jdbc:mysql://localhost:3306/test", "admin", "pass");
+		List<Map<String, String>> result = bookDatabase.selectAllBooks();
 		result.forEach(System.out::println);
 	}
 }
@@ -48,4 +48,14 @@ class DatabaseManager {
 		}
 		return output;
     }
+}
+
+class BookDatabase extends DatabaseManager {
+	public BookDatabase(String url, String username, String password) {
+		super(url, username, password);
+	}
+
+	public List<Map<String, String>> selectAllBooks() {
+		return select("SELECT * FROM books");
+	}
 }
