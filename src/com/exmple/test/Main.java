@@ -13,7 +13,3 @@ public class Main {
 		Printer printer = new Printer();
 	}
 }
-
-interface Printer {
-	void printMessage(String message);
-}
