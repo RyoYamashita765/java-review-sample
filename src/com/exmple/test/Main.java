@@ -18,6 +18,9 @@ class Dummy {
 
 class Cache {
 	String cache;
+	public void setCache(String cache) {
+		this.cache = cache;
+	}
 }
 
 class Printer {
